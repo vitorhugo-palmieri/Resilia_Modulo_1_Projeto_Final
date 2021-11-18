@@ -1,4 +1,5 @@
-import time
+import time  
+
  
 def abertura():
     print("\n\n                       Bem vindo ao PROGRAMA APOLLO 23_\n\n")
