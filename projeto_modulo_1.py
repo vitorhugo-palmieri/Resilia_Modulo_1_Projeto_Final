@@ -1,6 +1,7 @@
 import time  
+import os
+  
 
- 
 def abertura():
     print("\n\n                       Bem vindo ao PROGRAMA APOLLO 23_\n\n")
     time.sleep(2)
