@@ -275,7 +275,7 @@ def mensagem_vencedor():
     time.sleep(1)
     print("FIM DO JOGO")
 
-##################################### ANDAMENTO DO JOGO ###########################################
+###################################### ANDAMENTO DO JOGO ###########################################
 
 def andamento_do_jogo():
     continua=abertura() 
