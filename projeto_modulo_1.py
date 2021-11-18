@@ -53,14 +53,9 @@ def jogar(nome_personagem):
 #FUNÇÃO ILUSTRATIVA DO LANCAÇENTO
 def lancamento():
     print(" Contagem regressiva...")
-    time.sleep(1)
-    print(" 3")
-    time.sleep(1)
-    print(" 2")
-    time.sleep(1)
-    print(" 1")
-    time.sleep(1)
-    print(" 0...\n")
+    for tempo in range(3,-1,-1):
+        time.sleep(1)
+        print(tempo)
     time.sleep(2)
     print(" O lançamento é iniciado, a fumaça toma conta da plataforma")
     print(" a UVB-76 está cada vez mais distante da terra\n")
@@ -289,4 +284,5 @@ def andamento_do_jogo():
     else:
         print("FIM DO JOGO")    
 
-andamento_do_jogo()         
+andamento_do_jogo()   
+  
